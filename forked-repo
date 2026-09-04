@@ -1,1 +1,12 @@
 
+Command:
+curl.exe -s https://api.github.com/repos/hareem551-code/mcino-Introduction-to-Git-and-GitHub | Select-String '"fork"|"full_name"'
+
+Output:
+
+"full_name": "hareem551-code/mcino-Introduction-to-Git-and-GitHub",
+"fork": true,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+"fork": false,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+"fork": false,
